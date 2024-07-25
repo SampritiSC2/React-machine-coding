@@ -1,0 +1,23 @@
+.comment-list-container {
+  list-style-type: none;
+}
+
+.list-item {
+  padding: 10px;
+  border: 1px solid black;
+  /* border-bottom: 1px solid black; */
+  margin-bottom: 10px;
+  width: fit-content;
+  min-width: 450px;
+}
+
+.list-item-div1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item-div2 span {
+  font-size: 3rem;
+  cursor: pointer;
+}
